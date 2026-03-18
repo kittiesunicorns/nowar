@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Write Your Rep — Stop the War</title>
+  <meta name="description" content="Contact your New York federal representatives and demand they oppose U.S. military escalation in the Middle East.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-inner">
+    <a class="site-logo" href="index.html"><span>Stop</span>the War</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="email.html" class="active">Write Your Rep</a>
+      <a href="resources.html">Resources</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="section" style="padding-bottom:0;">
+    <div class="wrap">
+      <p class="section-label">Take action</p>
+      <h1 style="font-size:clamp(1.75rem,4vw,2.5rem);margin-bottom:1rem;">Write your representative</h1>
+      <p style="font-size:1.05rem;color:#4a4a47;max-width:600px;">Below are New York's U.S. senators and key House members. Craft a message, send it directly, or call — every contact is logged and counted.</p>
+      <div style="background:#f8eaea;border-left:3px solid #8b1a1a;padding:0.875rem 1rem;margin-top:1rem;font-size:0.875rem;color:#6a1313;">
+        <strong>Tip:</strong> Representatives' offices track constituent contact volume. A brief personal note about why this matters to you carries additional weight.
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:2rem;">
+    <div class="wrap">
+      <p class="section-label">U.S. Senators — New York</p>
+      <div class="rep-grid">
+
+        <div class="rep-card">
+          <p class="rep-card__title">U.S. Senator</p>
+          <h3>Chuck Schumer</h3>
+          <p class="rep-card__party">Democrat · New York</p>
+          <p class="rep-card__phone">DC: (202) 224-6542 · NYC: (212) 486-4430</p>
+          <div class="rep-card__actions">
+            <button class="btn btn--primary" onclick="openModal('email','senator1')">Craft your message</button>
+            <a class="btn btn--outline" data-send-key="senator1" href="#">Send it</a>
+            <button class="btn btn--call" onclick="openModal('call','senator1')">Call your rep</button>
+            <a class="btn btn--form" href="https://www.schumer.senate.gov/contact/message-chuck" target="_blank" rel="noopener">Use their form</a>
+          </div>
+        </div>
+
+        <div class="rep-card">
+          <p class="rep-card__title">U.S. Senator</p>
+          <h3>Kirsten Gillibrand</h3>
+          <p class="rep-card__party">Democrat · New York</p>
+          <p class="rep-card__phone">DC: (202) 224-4451 · NYC: (212) 688-6262</p>
+          <div class="rep-card__actions">
+            <button class="btn btn--primary" onclick="openModal('email','senator2')">Craft your message</button>
+            <a class="btn btn--outline" data-send-key="senator2" href="#">Send it</a>
+            <button class="btn btn--call" onclick="openModal('call','senator2')">Call your rep</button>
+            <a class="btn btn--form" href="https://www.gillibrand.senate.gov/contact/email-me/" target="_blank" rel="noopener">Use their form</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:1.5rem;">
+    <div class="wrap">
+      <p class="section-label">U.S. House — New York districts</p>
+      <p style="font-size:0.875rem;color:#7a7a76;margin-bottom:0;">Not sure which district you're in? <a href="https://www.house.gov/representatives/find-your-representative" target="_blank" rel="noopener">Find your representative on house.gov →</a></p>
+      <div class="rep-grid" style="margin-top:1.25rem;">
+
+        <div class="rep-card">
+          <p class="rep-card__title">U.S. Representative · District 12</p>
+          <h3>Jerry Nadler</h3>
+          <p class="rep-card__party">Democrat · Upper West Side / West Village</p>
+          <p class="rep-card__phone">DC: (202) 225-5635 · NYC: (212) 367-7350</p>
+          <div class="rep-card__actions">
+            <!-- TODO: add direct email strategy for House reps -->
+            <!-- <button class="btn btn--primary" onclick="openModal('email','nadler')">Craft your message</button> -->
+            <button class="btn btn--call" onclick="openModal('call','nadler')">Call your rep</button>
+            <a class="btn btn--form" href="https://nadler.house.gov/contact/" target="_blank" rel="noopener">Use their form</a>
+          </div>
+        </div>
+
+        <div class="rep-card">
+          <p class="rep-card__title">U.S. Representative · District 10</p>
+          <h3>Dan Goldman</h3>
+          <p class="rep-card__party">Democrat · Lower Manhattan / Brooklyn</p>
+          <p class="rep-card__phone">DC: (202) 225-7944 · NYC: (212) 822-7878</p>
+          <div class="rep-card__actions">
+            <!-- TODO: add direct email strategy for House reps -->
+            <!-- <button class="btn btn--primary" onclick="openModal('email','goldman')">Craft your message</button> -->
+            <button class="btn btn--call" onclick="openModal('call','goldman')">Call your rep</button>
+            <a class="btn btn--form" href="https://goldman.house.gov/address_authentication" target="_blank" rel="noopener">Use their form</a>
+          </div>
+        </div>
+
+        <div class="rep-card">
+          <p class="rep-card__title">U.S. Representative · District 8</p>
+          <h3>Hakeem Jeffries</h3>
+          <p class="rep-card__party">Democrat · Central Brooklyn</p>
+          <p class="rep-card__phone">DC: (202) 225-5936 · Brooklyn: (718) 237-2211</p>
+          <div class="rep-card__actions">
+            <!-- TODO: add direct email strategy for House reps -->
+            <!-- <button class="btn btn--primary" onclick="openModal('email','jeffries')">Craft your message</button> -->
+            <button class="btn btn--call" onclick="openModal('call','jeffries')">Call your rep</button>
+            <a class="btn btn--form" href="https://jeffriesforms.house.gov/contact/" target="_blank" rel="noopener">Use their form</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:#f5f4f0;border-top:1px solid #d6d4cc;">
+    <div class="wrap">
+      <p class="section-label">Other ways to reach them</p>
+      <h2 style="font-size:1.3rem;margin-bottom:1rem;">Phone calls work too</h2>
+      <p style="font-size:0.9rem;color:#4a4a47;max-width:580px;">Congressional staff track call volume by issue. A 30-second call is logged and counted just like an email. Call direct or use the Capitol switchboard and ask to be connected.</p>
+      <div style="margin-top:1rem;display:flex;flex-direction:column;gap:0.5rem;max-width:420px;">
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:0.6rem 0.875rem;background:#fff;border:1px solid #d6d4cc;font-size:0.875rem;">
+          <span><strong>Schumer</strong> DC office</span>
+          <a href="tel:+12022246542" style="color:#1d4e8f;font-weight:bold;">(202) 224-6542</a>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:0.6rem 0.875rem;background:#fff;border:1px solid #d6d4cc;font-size:0.875rem;">
+          <span><strong>Gillibrand</strong> DC office</span>
+          <a href="tel:+12022244451" style="color:#1d4e8f;font-weight:bold;">(202) 224-4451</a>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:0.6rem 0.875rem;background:#fff;border:1px solid #d6d4cc;font-size:0.875rem;">
+          <span><strong>Nadler</strong> DC office</span>
+          <a href="tel:+12022255635" style="color:#1d4e8f;font-weight:bold;">(202) 225-5635</a>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:0.6rem 0.875rem;background:#fff;border:1px solid #d6d4cc;font-size:0.875rem;">
+          <span><strong>Goldman</strong> DC office</span>
+          <a href="tel:+12022257944" style="color:#1d4e8f;font-weight:bold;">(202) 225-7944</a>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:0.6rem 0.875rem;background:#fff;border:1px solid #d6d4cc;font-size:0.875rem;">
+          <span><strong>Jeffries</strong> DC office</span>
+          <a href="tel:+12022255936" style="color:#1d4e8f;font-weight:bold;">(202) 225-5936</a>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:0.6rem 0.875rem;background:#f5f4f0;border:1px solid #d6d4cc;font-size:0.875rem;">
+          <span>Capitol switchboard</span>
+          <a href="tel:+12022243121" style="color:#1d4e8f;font-weight:bold;">(202) 224-3121</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ── Shared modal ────────────────────────────────────────────── -->
+<div class="modal-backdrop" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+  <div class="modal">
+    <button class="modal__close" onclick="closeModal()" aria-label="Close">×</button>
+    <p class="section-label" id="modal-label"></p>
+    <h2 id="modal-title"></h2>
+    <p style="font-size:0.8rem;color:#7a7a76;margin-bottom:1rem;" id="modal-hint"></p>
+    <div class="template-body" id="modal-body"></div>
+    <div style="display:flex;gap:0.75rem;flex-wrap:wrap;align-items:center;">
+      <button class="copy-btn" onclick="copyModal()">Copy to clipboard</button>
+      <span id="copy-confirm" style="font-size:0.8rem;color:#1d4e8f;opacity:0;transition:opacity 0.3s;">Copied!</span>
+      <span id="modal-phone-link" style="margin-left:auto;"></span>
+    </div>
+    <p style="font-size:0.8rem;color:#7a7a76;margin-top:1rem;margin-bottom:0;" id="modal-footer"></p>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <span>StopTheWar.nyc — not affiliated with any political party or organization</span>
+    <span>Built and maintained by New York residents</span>
+  </div>
+</footer>
+
+<script src="js/reps.js"></script>
+<script src="js/email.js"></script>
+
+</body>
+</html>
