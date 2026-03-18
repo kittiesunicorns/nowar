@@ -1,5 +1,6 @@
-yaml---
+---
+
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/kittiesunicorns/public_html/nowar.nyc
+    - export DEPLOYPATH=/home/kittiesunicorns/public_html/website_0ba351c1
     - /bin/cp -R * $DEPLOYPATH
