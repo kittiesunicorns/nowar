@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/kittiesunicorns/public_html/peace.nyc
+    - export DEPLOYPATH=/home4/unicorn/public_html/peace.nyc
     - /bin/cp -R * $DEPLOYPATH
